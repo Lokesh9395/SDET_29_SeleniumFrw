@@ -3,7 +3,10 @@
   <groupId>seleniumCRM_Framework</groupId>
   <artifactId>seleniumCRM_Framework</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
+  <properties>
+	  <maven.compile.source>1.8</maven.compile.source>
+	  <maven.compile.target>1.8</maven.compile.target>
+	</properties>
   <dependencies>
        	<dependency>
 		    <groupId>org.seleniumhq.selenium</groupId>
